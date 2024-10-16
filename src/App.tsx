@@ -4,6 +4,7 @@ import OrderConfirmation from './component/OrderConfirmation';
 import DeliveryDetails from './component/details';
 import RecipeKitDelivery from './component/OrderDetails'; 
 import IngredientShop from './component/mainpage';
+import Header from './component/searcheader';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/*<DeliveryDetails/>*/}
       {/*<RecipeKitDelivery />
       {/*<IngredientShop/>*/}
+      <Header/>
 
     </div>
   );
