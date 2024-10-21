@@ -6,6 +6,8 @@ import RecipeKitDelivery from './component/OrderDetails';
 import IngredientShop from './component/mainpage';
 import Header from './component/searcheader';
 
+import Dropdown from './component/CountryDropdown';
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +15,8 @@ function App() {
       {/*<DeliveryDetails/>*/}
       {/*<RecipeKitDelivery />
       {/*<IngredientShop/>*/}
-      <Header/>
+    {/*<Header/>*/}  
+    <Dropdown/>
 
     </div>
   );
